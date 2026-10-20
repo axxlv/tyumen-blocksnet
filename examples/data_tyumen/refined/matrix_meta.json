@@ -1,0 +1,15 @@
+{
+  "shape": [
+    12805,
+    12805
+  ],
+  "chunk_size": 25,
+  "workers": 1,
+  "graph_nodes": 69733,
+  "graph_edges": 194308,
+  "units": "minutes (walk)",
+  "dtype": "float16",
+  "parts": 513,
+  "blocks_signature": "b069be6c08f9e3d0a8a30e2a113ef6c4",
+  "created_at_utc": "2026-10-20T13:23:23+00:00"
+}

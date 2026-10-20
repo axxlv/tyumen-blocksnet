@@ -1,0 +1,15 @@
+{
+  "blocks_before_split": 11625,
+  "blocks_after_split": 12805,
+  "blocks_area_km2": 449.758,
+  "area_change_km2": -0.021428,
+  "land_area_km2": 449.982,
+  "coverage_land_pct": 99.95,
+  "max_area_km2": 16.806,
+  "blocks_gt_10_km2": 2,
+  "blocks_holes_gt_50": 0,
+  "invalid_geometries": 0,
+  "overlap_area_km2": 0.0,
+  "outside_area_km2": 0.0,
+  "top4_area_share_pct": 9.06
+}

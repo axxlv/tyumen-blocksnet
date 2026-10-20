@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "data_dir_refined": true,
+    "blocks_present": true,
+    "all_geometries_valid": true,
+    "unique_block_ids": true,
+    "matrix_shape": true,
+    "matrix_index": true,
+    "matrix_diagonal_zero": true,
+    "matrix_no_nan": true,
+    "population_positive": true,
+    "school_capacity_positive": true,
+    "results_rows_match": true,
+    "results_columns_match": true,
+    "all_required_metrics": true,
+    "land_use_present": true,
+    "same_columns_as_original": true
+  },
+  "blocks": 12805,
+  "population": 980707,
+  "schools": 70,
+  "capacity": 17500,
+  "matrix_shape": [
+    12805,
+    12805
+  ],
+  "missing_metrics": []
+}

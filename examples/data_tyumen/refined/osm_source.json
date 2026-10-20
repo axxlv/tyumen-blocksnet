@@ -1,0 +1,16 @@
+{
+  "source": "Ural Federal District (Geofabrik), local PBF",
+  "url": "https://download.geofabrik.de/russia/ural-fed-district-latest.osm.pbf",
+  "license": "ODbL 1.0",
+  "note": "local PBF; no download in this notebook",
+  "buffer_km": 3.0,
+  "bbox_4326": [
+    65.21597301233534,
+    56.973814472972975,
+    65.86489558766466,
+    57.30956892702702
+  ],
+  "cropped_pbf": "tyumen_refined.osm.pbf",
+  "cropped_size_bytes": 10826301,
+  "boundary_osm_id": "R2049854"
+}

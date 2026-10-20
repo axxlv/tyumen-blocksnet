@@ -1,0 +1,14 @@
+{
+  "params": {
+    "method": "area_classifier",
+    "cluster_backend": "sklearn.HDBSCAN",
+    "max_area_km2": 1.0,
+    "min_block_area_m2": 500.0
+  },
+  "input_blocks": 11625,
+  "input_signature": "23f42f17a844132da50116d05fa27a84",
+  "output_blocks": 12805,
+  "output_signature": "b069be6c08f9e3d0a8a30e2a113ef6c4",
+  "created_at_utc": "2026-10-20T11:04:04+00:00",
+  "note": "area classifier; empty large blocks without buildings are not split"
+}

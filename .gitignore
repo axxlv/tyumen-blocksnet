@@ -42,3 +42,55 @@ ENV/
 
 # PyCharm env
 .idea
+.venv-blocksnet/
+
+# ---------------------------------------------------------------------------
+# Домашнее задание № 1 (исследование Тюмени): что НЕ публикуется
+# Файлы остаются на компьютере, но не попадают в репозиторий.
+# ---------------------------------------------------------------------------
+
+# Кэш и временные файлы
+cache/
+examples/cache/
+
+# Другие города и предыдущие прогоны расчётов
+examples/data_vyborg/
+examples/data_tyumen_pbf/
+examples/data_tyumen/original/
+examples/data_tyumen/test/
+examples/data_tyumen/full/
+
+# Предыдущие версии страницы и генераторов
+examples/data_tyumen/dashboard.html
+examples/data_tyumen/dashboard_final.html
+examples/data_tyumen/dashboard_refined_previous.html
+examples/tyumen_dashboard.py
+examples/tyumen_dashboard_final.py
+
+# Дубли и черновики ноутбуков
+examples/tyumen_pipeline.ipynb
+examples/tyumen_pipeline_original.ipynb
+examples/tyumen_pipeline_pbf.ipynb
+examples/tyumen_pipeline_refined_continue.ipynb
+examples/tyumen_final_maps.ipynb
+examples/vyborg_pipeline.ipynb
+
+# Матрица доступности: около 1,4 ГБ, передаётся преподавателю отдельно по ссылке
+examples/data_tyumen/refined/accessibility_matrix.csv
+examples/data_tyumen/refined/accessibility_matrix.parquet
+examples/data_tyumen/refined/accessibility_matrix_parts/
+
+# Промежуточные слои, восстанавливаемые ноутбуком из локального PBF
+examples/data_tyumen/refined/roads.geojson
+examples/data_tyumen/refined/blocks.geojson
+examples/data_tyumen/refined/blocks_initial.geojson
+
+# Сравнение с первоначальным расчётом (первоначальные данные не публикуются)
+examples/data_tyumen/refined/comparison.csv
+examples/data_tyumen/refined/comparison.json
+examples/data_tyumen/refined/comparison_maps.png
+examples/data_tyumen/refined/blocks_quality.csv
+
+# Временные файлы шаблона
+density.py
+hello.py
